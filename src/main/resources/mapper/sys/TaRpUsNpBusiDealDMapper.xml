@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.talkweb.numberportability.sys.mapper.TaRpUsNpBusiDealDMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.talkweb.numberportability.sys.entity.TaRpUsNpBusiDealD">
+        <result column="STATIS_DATE" property="statisDate" />
+        <result column="CITY_CODE" property="cityCode" />
+        <result column="CITY_NAME" property="cityName" />
+        <result column="CNTY_CODE" property="cntyCode" />
+        <result column="CNTY_NAME" property="cntyName" />
+        <result column="GRID_CODE" property="gridCode" />
+        <result column="GRID_NAME" property="gridName" />
+        <result column="DATA_LVL" property="dataLvl" />
+        <result column="CURD_COND_QUERY_CUST_NUM" property="curdCondQueryCustNum" />
+        <result column="CURD_CARRYOUT_APPLY_CUST_NUM" property="curdCarryoutApplyCustNum" />
+        <result column="CURD_ACCOWI_QUALITY_CUST_NUM" property="curdAccowiQualityCustNum" />
+        <result column="CURD_DIRECT_ACCOWI_CUST_NUM" property="curdDirectAccowiCustNum" />
+        <result column="CANCEL_BUSI_DISC_ACCOWI_CUST" property="cancelBusiDiscAccowiCust" />
+        <result column="CURD_NACCWI_CUST_NUM" property="curdNaccwiCustNum" />
+        <result column="CURD_SUCC_GRANT_CUST_NUM" property="curdSuccGrantCustNum" />
+        <result column="CURD_CNCL_CARRYOUT_CUST_NUM" property="curdCnclCarryoutCustNum" />
+        <result column="CURD_CNCL_TELECOM_CUST_NUM" property="curdCnclTelecomCustNum" />
+        <result column="CURD_CNCL_UNICOM_CUST_NUM" property="curdCnclUnicomCustNum" />
+        <result column="CURD_CARRYIN_OPEN_CUST_NUM" property="curdCarryinOpenCustNum" />
+        <result column="CURD_TELECOM_OPEN_CUST_NUM" property="curdTelecomOpenCustNum" />
+        <result column="CURD_UNICOM_OPEN_CUST_NUM" property="curdUnicomOpenCustNum" />
+        <result column="CURD_CARRYIN_NUM" property="curdCarryinNum" />
+        <result column="CURM_COND_QUERY_CUST_NUM" property="curmCondQueryCustNum" />
+        <result column="CURM_CARRYOUT_APPLY_CUST_NUM" property="curmCarryoutApplyCustNum" />
+        <result column="CURM_ACCOWI_CUST_NUM" property="curmAccowiCustNum" />
+        <result column="CURM_DIRECT_ACCOWI_CUST_NUM" property="curmDirectAccowiCustNum" />
+        <result column="CURM_CANCEL_DISC_ACCOWI_CUST" property="curmCancelDiscAccowiCust" />
+        <result column="CURM_NACCWI_CUST_NUM" property="curmNaccwiCustNum" />
+        <result column="CURM_SUCC_GRANT_CUST_NUM" property="curmSuccGrantCustNum" />
+        <result column="CURM_CNCL_CARRYOUT_CUST_NUM" property="curmCnclCarryoutCustNum" />
+        <result column="CURM_CNCL_TELECOM_CUST_NUM" property="curmCnclTelecomCustNum" />
+        <result column="CURM_CNCL_UNICOM_CUST_NUM" property="curmCnclUnicomCustNum" />
+        <result column="CURM_CARRYIN_OPEN_CUST_NUM" property="curmCarryinOpenCustNum" />
+        <result column="CURM_TELECOM_OPEN_CUST_NUM" property="curmTelecomOpenCustNum" />
+        <result column="CURM_UNICOM_OPEN_CUST_NUM" property="curmUnicomOpenCustNum" />
+        <result column="CURM_CARRYIN_NUM" property="curmCarryinNum" />
+    </resultMap>
+
+</mapper>
